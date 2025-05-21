@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Video Carousel</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+
+        </nav>
+    </header>
+
+    <!-- Carousel -->
+    <div class="carousel">
+        <!-- Video Slides -->
+        <div class="list">
+            <div class="item">
+                <video src="videos/mario.mp4" autoplay loop></video>
+                <div class="content">
+                    <div class="author">2023</div>
+                    <div class="title">The Super Mario Bros. Movie</div>
+                    <div class="topic">Animation | Comedy | Adventure | Family |Fantasy</div>
+                    <div class="des">
+                        In The Super Mario Bros. Movie (2023), Brooklyn plumbers Mario and Luigi are transported to a magical world threatened by the villainous Bowser. Mario teams up with Princess Peach, Toad, and Donkey Kong to stop Bowser’s plan to conquer the Mushroom Kingdom. With courage and teamwork, Mario saves Luigi and defeats Bowser, bringing peace to the realms.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <video src="videos/tom&jerry.mp4" autoplay loop ></video>
+                <div class="content">
+                    <div class="author">2021</div>
+                    <div class="title">Tom and Jerry The Movie </div>
+                    <div class="topic">Comedy| Animation | Kids & Family</div>
+                    <div class="des">
+                        In this live-action/animated hybrid, Jerry moves into a luxurious New York hotel just before a high-profile wedding. The wedding planner hires Tom to evict Jerry, leading to chaotic confrontations that threaten the event. Eventually, Tom and Jerry must team up to thwart a larger conspiracy within the hotel.
+
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <video src="videos/kungfupanda.mp4" autoplay loop></video>
+                <div class="content">
+                    <div class="author">2016</div>
+                    <div class="title">Kung Fu Panda 3</div>
+                    <div class="topic"> Animation| Adventure | Comedy | Family</div>
+                    <div class="des">
+                        In Kung Fu Panda 3 (2016), Po reunites with his long-lost father and discovers a secret panda village. When the villainous Kai threatens to steal the chi of kung fu masters, Po must train his clumsy panda kin to defeat him. Through self-discovery and teamwork, Po embraces his true potential as the Dragon Master.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <video src="videos/cars.mp4" autoplay loop></video>
+                <div class="content">
+                    <div class="author">2017</div>
+                    <div class="title">Cars 3</div>
+                    <div class="topic">Animation | Comedy | Family | Sports</div>
+                    <div class="des">
+                        In Cars 3 (2017), Lightning McQueen faces a new generation of high-tech racers, leading to a career-threatening crash. Determined to prove himself, he teams up with Cruz Ramirez, an eager trainer with her own racing dreams. Together, they embark on a journey of self-discovery and mentorship to reclaim McQueen's place in racing history.
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thumbnails -->
+        <div class="thumbnail">
+            <div class="item">
+                <video src="videos/mario.mp4" autoplay loop></video>
+                <div class="content">
+                    <div class="title">Mario</div>
+                    <div class="description">movie</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <video src="videos/tom&jerry.mp4" autoplay loop></video>
+                <div class="content">
+                    <div class="title">tom & jerry</div>
+                    <div class="description">movie</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <video src="videos/kungfupanda.mp4" autoplay loop></video>
+                <div class="content">
+                    <div class="title">kung fu panda</div>
+                    <div class="description">movie</div>
+                </div>
+            </div>
+
+            <div class="item">
+                <video src="videos/cars.mp4" autoplay loop></video>
+                <div class="content">
+                    <div class="title">cars</div>
+                    <div class="description">movie</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <div class="arrows">
+            <button id="prev">&lt;</button>
+            <button id="next">&gt;</button>
+        </div>
+
+        <!-- Time Progress Bar -->
+        <div class="time"></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
